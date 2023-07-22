@@ -1,0 +1,183 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/*slider style in main index page*/
+.slideimage {
+    display: flex;
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-100%);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    35% {
+        transform: translateX(-200%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+    }
+
+    60% {
+        transform: translateX(-300%);
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+
+    85% {
+        transform: translateX(-400%);
+    }
+
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+img {
+    width: 100%;
+    height:490px;
+}
+
+.slider {
+    width: 100%;
+    height: 495px;
+    margin: 102px auto;
+    overflow: hidden;
+    border: 5px solid hwb(120 95% 4%);
+}
+
+#footerindex {
+    margin-top: -96px;
+}
+/* Responsive styles */
+
+@media screen and (max-width: 425px) {
+    #footerindex {
+        margin-top: 150px;
+    }
+    /* #footerbottom{
+      margin-top: 10px;
+      width: 600px;
+    }  */
+
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .nav a {
+        padding: 10px 10px;
+        font-size: 15px;
+        /* float: left; */
+    }
+
+    .slider {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 150px auto;
+    }
+}
+/*CONTACT US PAGE*/
+
+
+.contact {
+  width: 400px;
+  margin-top:100px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px solid grey;
+  
+  
+}
+
+.contact h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 10px;
+  margin-left:40px;
+}
+
+    .contact input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(187, 209, 211);
+        color: #160f0f;
+        cursor: pointer;
+        border-radius: 3px;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .contact input[type="email"],
+    .contact input[type="text"],
+    .contact textarea {
+        width: 90%;
+        padding: 10px;
+        display: block;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        margin-left: 40px;
+    }
+
+/* Responsive styles */
+.emailusernametext {
+    color: black; 
+    font-style: normal;
+}
+
+#title {
+    text-align: center;
+}
+.about{
+    margin-top:50px;
+    text-align:justify;
+    font-style:oblique;
+}
+#studentlistheading{
+    text-align:center;
+}
+#editform{
+    
+}
+
